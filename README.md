@@ -6,3 +6,7 @@ Wie arbeiten?
 
 - Spotify login im stackblitz mit temp. secrets
 - Weitere Arbeiten mit einem stündlichen AccessToken (über spotify-seite)
+
+Wo erscheinen api logs?
+
+- im terminal von stackblitz
