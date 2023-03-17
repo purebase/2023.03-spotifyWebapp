@@ -1,3 +1,4 @@
 export const secrets_spotify = {
-  name: 'thomas',
+  client_id: '',
+  secret_id: '',
 };
