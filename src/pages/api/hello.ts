@@ -1,18 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { secrets_spotify } from '../../../secrets';
-
-type Data = {
-  name: string;
-};
-
-const name = secrets_spotify.name;
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse
 ) {
   console.log('/api/hello PASSED');
+  console.dir(req.query);
 
-  res.status(200).json({ name: name });
+  res.status(200).json({ name: 'Max Mustermann' });
 }
